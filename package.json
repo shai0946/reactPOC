@@ -1,0 +1,32 @@
+{
+  "name": "reactpoc",
+  "version": "1.0.0",
+  "description": "This is a react POC ",
+  "main": "App.js",
+  "script":{
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shai0946/reactPOC.git"
+  },
+  "author": "Shailesh Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shai0946/reactPOC/issues"
+  },
+  "homepage": "https://github.com/shai0946/reactPOC#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  }
+}
